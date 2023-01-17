@@ -1,0 +1,39 @@
+.h2o {
+    font-size: 5rem;
+    font-weight: bold;
+    color: crimson;
+    text-align: center;
+}
+.h2span {
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 3rem;
+    color: white;
+}
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    color:rgb(255, 255, 255);
+}
+.countdown{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.day,
+.hour,
+.minute,
+.second{
+    font-size: 5rem;
+    color: crimson;
+}
+.waiting{
+    height: 50vh;
+}
